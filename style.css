@@ -1,69 +1,75 @@
 /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-/* Conteneur principal du CV */
-.cv-container {
-    background: white;
-    width: 800px;
-    padding: 20px;
     margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    line-height: 1.6;
 }
 
-/* En-tête du CV */
-header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #007BFF;
+h1, h2 {
+    color: #333;
 }
 
-header h1 {
-    margin: 10px 0;
-    font-size: 28px;
-    color: #007BFF;
-}
-
-.job-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #555;
-}
-
-.info p {
-    margin: 5px 0;
-}
-
-/* Sections du CV */
-section {
-    margin: 20px 0;
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 h2 {
-    color: #007BFF;
-    border-bottom: 2px solid #007BFF;
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
     padding-bottom: 5px;
 }
 
-/* Liste des compétences et expériences */
+p {
+    margin: 5px 0;
+}
+
+/* Styles pour les sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Styles pour les listes */
 ul {
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Liens */
-a {
-    color: #007BFF;
-    text-decoration: none;
+ul li {
+    margin-bottom: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Styles pour les informations de contact */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 2px 0;
+}
+
+/* Styles pour la localisation */
+.location {
+    font-style: italic;
+}
+
+/* Styles pour les dates */
+.date {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Styles pour les compétences */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
 }
